@@ -92,11 +92,7 @@ public class Lexer {
         addToken(type," ");
     }
 
-    private void addToken(TokenType type, String input) {
-        tokens.add(new Token(type, input));
-    }
-
-    private void addToken(TokenType type, String input, String lexeme) {
-        tokens.add(new Token(type, input, lexeme)); // а пон перегрузка
-    }
+    private void addToken(TokenType type, String lexeme) {
+        tokens.add(new Token(type, lexeme));
+    }
 }
