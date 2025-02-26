@@ -1,4 +1,4 @@
 package com.nswlab.parser.lexer.Token;
 
-public class Pexer {
+public class Parser {
 }
