@@ -1,0 +1,56 @@
+
+
+word3 = word + word2
+str2 = str * 2
+print(word3)
+
+
+str2 = str * 2
+print(str2)
+
+
+word4 = PI * 2
+print(word4)
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+
+
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+
+
+word5 += 1
+
+print(word5)
+print(str3)
+
+
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+word5 = word2 - word
+str3 = "abc" * 3 + "def" * 2
+print(word5)
+print(str3)
+word6 = word * 3
+str4 = "hello" + " world" * 2
+print(word6)
+
+
+str4 = "hello" + " world" * 2
+print(str4)
