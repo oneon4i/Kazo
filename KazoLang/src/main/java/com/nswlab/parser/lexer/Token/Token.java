@@ -1,13 +1,12 @@
 package com.nswlab.parser.lexer.Token;
 
 public class Token {
-    public TokenType type;
-    public String input;
-    public String lexeme; // типа KEYWORD(lexeme)
+    public TokenType type; // type of token
+    public String input;   // code in our language
+    public String lexeme;  // типа KEYWORD(lexeme)
 
-    public Token(){
+    public Token(){}
 
-    }
     public Token(TokenType type, String input, String lexeme){
         this.type = type;
         this.input = input;
