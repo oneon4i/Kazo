@@ -5,7 +5,7 @@ public class Token {
     public String input;   // code in our language
     public String lexeme;  // типа KEYWORD(lexeme)
 
-    public Token(){}
+    public Token() {}
 
     public Token(TokenType type, String input, String lexeme){
         this.type = type;
