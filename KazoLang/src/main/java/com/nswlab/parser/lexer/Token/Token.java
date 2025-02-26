@@ -23,15 +23,7 @@ public class Token {
 
     public void setType(TokenType type){
         this.type = type;
-    }
-
-    public String getInput(){
-        return this.input;
-    }
-
-    public void setInput(String input){
-        this.input = input;
-    }
+    }
 
     public String getLexeme(){
         return this.lexeme;
@@ -43,6 +35,6 @@ public class Token {
 
     @Override
     public String toString() {
-        return type + " " + input + " " + lexeme;
+        return type + " " + lexeme + " ";
     }
 }
